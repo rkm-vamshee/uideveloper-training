@@ -1,0 +1,180 @@
+Javascript Topics:
+=======================
+1. DataStructures - 
+    - intro
+    - Versions 
+    - variables
+    - debugging code
+    - Comments
+    - datatypes
+    - operators
+    - conditional statements
+    - Loops
+
+
+
+
+
+
+Javascript Notes:
+========================
+Javascript - Client side scripting Language
+Only Runs in Browser
+
+NodeJs - JS- ServerSideScripting Language
+
+Other name:
+ECMA Script
+Official name:
+ECMA Script - 2015 : (ES6)
+ECMA Script - 2016
+ECMA Script - 2017
+ECMA Script - 2018
+
+Variable:
+-----------
+2 steps : 
+    1. Declaring
+    2. Assigning Value
+
+
+For Decalring variables, we use var, let, const - keywords
+    old - var
+    new - let , const
+
+        Decalring:
+        var a; 
+        // Every line/statement must end with Semicolon(;)
+        var : Keyword
+        a : variable name
+
+        Assignining Value:
+        a=2;
+
+        //Combining 2 steps
+        var a = 2;
+
+
+        // let , const
+
+        -- JS BIN
+
+debugging code:
+
+    console.log("Hai");
+
+Comments: 2 types
+1. single line comment: //
+2. Multiline Comments:
+        /*
+
+
+        */
+
+
+Let, var, const
+=====================
+
+
+
+
+
+
+Data types:
+===========
+1 
+true
+raja
+
+1. Primitive data types
+2. Reference data types
+
+1. Primitive data types
+==========================
+1. String
+2. number
+3. boolean
+4. undefined
+
+
+1. String:
+var a = "Raja";
+2. number
+var rollno=2;
+
+3. boolean = 2 value
+var isPassed = true;
+4. undefined
+
+
+Reference Data types:
+
+1. functions
+2. Arrays
+3. objects
+
+
+Function:
+----------
+group of statments doining 1 task.
+
+ex:
+function show(){
+    console.log("hai");
+}
+
+Array:
+-----------
+Storing mutliple values in single variable.
+
+var names = ["Rama","Sita","Lava","Kusha"];
+
+index based array : 0---
+names[0]= rama
+
+Object:
+-------------
+property-value pairs
+var sudent ={ "name":"rani","class":"Btech" };
+
+
+- operators
+- conditional statements
+- Loops
+
+==========
+
+
+- operators:
+-------------------
+1. Assignment Operator: =
+2. Arithmetic operators: +,-,/,%
+3. comparision operator: >,<,>=,<= , !=, ==, ===
+4. Logical Operator: &&- AND,   ||-OR , ! - not 
+5. increment operator: ++
+6. decrement operator: --
+
+- concatination/joining:
++
+1. joining 2 strings
+2. joining variable and strings
+3. joining 2 variables
+
+
+- interpolation/ template strings
+$
+
+
+
+- conditional statements:
+
+1. if 
+2. if else
+3. if else if
+4  switch
+
+- Loops:
+
+for Loop
+while Loop
+do while loop

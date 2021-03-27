@@ -1,0 +1,142 @@
+JavaScript Functions
+========================
+Topics:
+1. intro
+2. implementation
+3. classification of function based on parameters ***
+4. Classifition of function based on calling
+5. Classifition of function based on writing/creation
+6. Classifition of function based on output **
+
+
+=================================
+Why we need function?
+A:
+
+ex:
+
+var a =10;
+var b = 15;
+console.log(a+b);
+
+
+function add(){
+    var a =10;
+    var b = 15;
+    console.log(a+b);
+}
+add();
+
+Definition:
+Group of statements doing particular task.
+
+Function syntax:
+
+keyword+ functionname+ parenthesis+ function body
+
+function add(){
+
+}
+
+How to Implement Function ?
+
+1. creation function
+
+2 . calling /execuiting function
+
+
+function add(){
+
+}
+
+add();
+
+
+-----------------------
+3. classification of function based on parameters
+--------------------------
+
+1. non paramerterized function
+2. paramerterized function
+
+1. non paramerterized function:
+
+function add(){
+     var a =10;
+    var b = 15;
+    console.log(a+b);
+}
+Note: only in specific cases. limited
+
+2. paramerterized function
+// 2 parameters
+function addP(m,n){
+     var a =m;
+    var b = n;
+    console.log(a+b);
+}
+-----------------------------------------------------------
+4. Classifiction of function based on calling
+============================================================
+1. manually calling
+2. selfinvoking
+
+(function(){
+     var a =10;
+    var b = 15;
+    console.log(a+b);
+})()
+
+
+
+----------------------------------
+4. Classifition of function based on writing/creation
+
+
+1. normal functions / function declartions
+2. function expression
+
+
+Function declaration:
+---------------
+function add(){
+     var a =10;
+    var b = 15;
+    console.log(a+b);
+}
+
+Function Expression:
+---------------------
+var add2 = function(){
+     var a =10;
+    var b = 15;
+    console.log(a+b);
+};
+
+---------------
+
+6. Classifition of function based on out
+1. function that not return
+2. function that return
+
+
+function add(){
+     var a =10;
+    var b = 15;
+    console.log(a+b);
+
+}
+
+
+function add(){
+     var a =10;
+    var b = 15;
+    console.log(a+b);
+    return a+b;
+    
+}
+
+
+Note: after return , function will not go to next line
+
+we can sore return into another vairable
